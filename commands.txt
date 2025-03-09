@@ -1,1 +1,43 @@
 Basic Git Commands 
+
+git                                               >>> Shows some basic commands
+
+git -v                                            >>> shows which version of git you have in this 
+                                                     -in the system.
+
+git init                                          >>> initilize a new git repository and make .git folder
+
+git config user.name "UserName"                   >>> set your username for commits
+
+git config user.email "userName@gmail.com"        >>> set your email with associated commits
+
+git config --list                                 >>> list the configure username and gmail if it is initilize
+
+git add file_name                                 >>> Adds the file to git to track
+
+git commit -m "description"                       >>> makes a version of the repository and add a description
+
+git status                                        >>> Shows the status of the repository
+                                                     -[add, commit]
+
+git checkout <commit-hash>                        >>> This will change the repo into a 
+                                                      -previousVersionCode
+
+git checkout -b branch_name                       >>> This will create a new branch like[main, master]
+
+git checkout branchName                           >>> puts the head or * in the named branch
+
+git clone "httpsLink"                             >>> clones a remote git repo to your local folder
+
+git log                                           >>> Displays the commit history, including commit hashes
+                                                     - , author names, messages, and timestamps
+
+git log --oneline                                 >>> only shows the commit Description
+
+git branch                                        >>> Shows all the branch-name in the git 
+
+git branch new_branch_name                        >>> Creates a new branch without switching to it 
+
+git merge branch-name                             >>> merges the branch you(head) is currently on and the branch name stated in the command
+
+git branch -d branchName                          >>> deletes the named branch in the commands 
