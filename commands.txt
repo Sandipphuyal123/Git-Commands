@@ -34,7 +34,7 @@ git log                                           >>> Displays the commit histor
 
 git log --oneline                                 >>> only shows the commit Description
 
-git branch                                        >>> Shows all the branch-name in the git 
+git branch                                        >>> Shows which branch you  are currently in 
 
 git branch new_branch_name                        >>> Creates a new branch without switching to it 
 
