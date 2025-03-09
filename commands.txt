@@ -40,4 +40,15 @@ git branch new_branch_name                        >>> Creates a new branch witho
 
 git merge branch-name                             >>> merges the branch you(head) is currently on and the branch name stated in the command
 
-git branch -d branchName                          >>> deletes the named branch in the commands 
+git branch -d branchName                          >>> deletes the named branch in the commands
+
+git remote add origin https://                    >>> makes a connection between github repo and the local system
+
+git remote -v                                     >>> shows which repository you are connected to.
+
+git remote remove origin                          >>> This will remove the repo URL link
+
+git push -u master                                >>> this will push the files in github.
+
+git branch -m main master                         >>> This renames your local main branch to master.
+
