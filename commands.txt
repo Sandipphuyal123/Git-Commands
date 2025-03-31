@@ -48,7 +48,7 @@ git remote -v                                     >>> shows which repository you
 
 git remote remove origin                          >>> This will remove the repo URL link
 
-git push -u master                                >>> this will push the files in github.
+git push -u origin master                         >>> this will push the files in github.
 
 git branch -m main master                         >>> This renames your local main branch to master.
 
