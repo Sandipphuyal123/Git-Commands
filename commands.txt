@@ -52,3 +52,4 @@ git push -u origin master                         >>> this will push the files i
 
 git branch -m main master                         >>> This renames your local main branch to master.
 
+git pull origin main --allow-unrelated-histories  >>> It merges content that are unrelated to each other.
